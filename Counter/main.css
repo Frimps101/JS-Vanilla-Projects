@@ -1,0 +1,36 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(219, 250, 219);
+}
+
+.container{
+    text-align: center;
+}
+
+.container-txt h1{
+    font-size: 2.4rem;
+}
+
+.container-txt p{
+    font-size: 2.8rem;
+}
+
+.btns .btn{
+    background: transparent;
+    outline: none;
+    padding: 10px 20px;
+    border: .5px solid transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px rgba(124, 112, 112, 0.267);
+    font-size: 1.15rem;
+    margin: 5px;
+}
+
+.btns .btn:hover{
+    background: lightgreen;
+    color: white;
+}
